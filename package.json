@@ -1,0 +1,17 @@
+{
+  "name": "embedsaver-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch"
+  },
+  "author": "Joost Van Opdorp",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.7",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "firebase": "^10.13.1"
+  }
+}
