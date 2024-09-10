@@ -26,6 +26,7 @@ firebaseConfig.js
 
 # Ignore TypeScript build files
 *.tsbuildinfo
+*.js
 
 # Ignore Mac system files
 *.DS_Store
