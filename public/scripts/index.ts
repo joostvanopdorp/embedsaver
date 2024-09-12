@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             embedList.innerHTML = ''; // Clear existing list
 
             embeds.forEach((embed: any) => {
-                const date = embed.date.toDate().toLocaleDateString();
+                const date = embed.date.toDate().toLocaleString();
                 const listItem = document.createElement('li');
                 listItem.textContent = `${embed.title} (${date}) - ${embed.brand}`;
                 embedList.appendChild(listItem);
